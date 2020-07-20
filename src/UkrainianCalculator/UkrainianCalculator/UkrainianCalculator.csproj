@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\submodules-core\src\Calculator\Calculator.csproj" />
+  </ItemGroup>
+
 </Project>
